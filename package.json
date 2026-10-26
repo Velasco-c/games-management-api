@@ -1,0 +1,31 @@
+{
+  "name": "games-management-api",
+  "version": "1.0.0",
+  "description": "API REST para gestionar videojuegos, desarrolladoras y reseñas con Express 5 y MySQL",
+  "main": "src/server.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "videojuegos",
+    "express",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.0",
+    "mysql2": "^3.11.0"
+  }
+}
